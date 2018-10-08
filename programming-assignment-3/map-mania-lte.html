@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Map Mania LTE</title>
+    <script> src"map-mania-lte.js"</script>
+    <link rel="stylesheet" href="map-mania-lte.css">
+</head>
+<body onload="initApplication()">
+    <h1>Map Mania LTE - Brian Troy</h1>
+    <h2>Version 1.0</h2>
+    <h1> Brian Troy's &quot; Favorite Places To Be &quot; 
+            <div id="map"></div>
+            <script>
+            function initMap(){
+              // The location of Uluru
+                var uluru = {lat: 41.878113, lng: -87.629799};
+          // The map, centered at Uluru
+                var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 4, center: uluru});
+          // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: uluru, map: map});
+            }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmdxRucB6cKj-4dYnfrw7Y1DOSZkKWLEo&callback=initMap">
+            </script>
+            <!--The div element for the map -->
+
+
+    </h1>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!--
+
+    Brian Troy
+    Programming Assignment 3
+    Version 1.0
+    Game about finding places
+-->
+
+
+<head>
+        <meta charset="UTF-8">
+        <title>Map Mania Lite</title>
+        <script src="map-mania-lte.js"></script>
+        <link rel="stylesheet" href="map-mania-lte.css"> 
+    </head>
+    <body onload="initApplication()">
+        <h1>Brian Troy's Favorite Places</h1>        
+        Hint: <input id="hint-id" type="text" value="" size="120" disabled><br><br>
+        Score: <input id="score-id" type="text" value="" size="2" disabled><br><br>
+
+        <div id="myMapID"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmdxRucB6cKj-4dYnfrw7Y1DOSZkKWLEo&callback=initMap"
+            async defer>
+        </script>
+    </body>
