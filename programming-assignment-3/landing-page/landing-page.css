@@ -6,6 +6,13 @@ p{
     color:yellow
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
 
 h1{
     text-align: center
