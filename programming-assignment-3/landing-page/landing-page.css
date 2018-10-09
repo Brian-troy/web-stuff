@@ -1,5 +1,5 @@
 body{
-    background: teal
+    background:rgb(219, 120, 39)
 }
 
 p{
@@ -10,7 +10,7 @@ ul {
     color: whitesmoke
 }
 a {
-    color: hotpink;
+    color: rgb(215, 104, 230);
 }
 h1{
     text-align: center
