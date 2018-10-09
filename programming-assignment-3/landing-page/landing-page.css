@@ -1,5 +1,5 @@
 body{
-    background: lightgreen
+    background: teal
 }
 
 p{
@@ -9,8 +9,11 @@ p{
 ul {
     color: whitesmoke
 }
-a:link {
+ul:link {
     text-decoration: orangered;
+}
+ul:active {
+    text-decoration: underline;
 }
 h1{
     text-align: center
