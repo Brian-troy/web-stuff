@@ -13,11 +13,12 @@ ul {
     color: whitesmoke
     
 }
-ul{
-    style="font-size:20px"
-
+ul
+{
+ 
+  /*height: 34px;*/
+    height:2.2em;
 }
-
 h1{
     text-align: center
     
