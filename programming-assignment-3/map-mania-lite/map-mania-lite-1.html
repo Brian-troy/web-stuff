@@ -22,31 +22,31 @@
         }
     </style>
 </head>
-<body>
-    <h1> Map Mania Lite</h1>
-    <h2>Brian Troy's Favorite Places Ever</h2>
-    <body onload="initApplication()">
-        Hint: <input id="hint-id" type="text" value="" size="120" disabled><br><br>
-        Score: <input id="score-id" type="text" value="" size="2" disabled><br><br>
-    <div id="map"></div>
-    <script>
-        function initMap(){
-            //map options
-            var options = {
-                zoom:4,  // where to start your zoom level
-                center:{lat:41.8781,lng:-87.62981}
-            }
-            //new map
-            var map = new google.maps.Map(document.getElementById('map'), options);
-            //Add marker
+<body onload="initApplication()"></body>
+<h1> Map Mania Lite</h1>
+<h2>Brian Troy's Favorite Places Ever</h2>
+    
+    Hint: <input id="hint-id" type="text" value="" size="120" disabled><br><br>
+    Score: <input id="score-id" type="text" value="" size="2" disabled><br><br>
+<div id="map"></div>
+<script>
+    function initMap(){
+         //map options
+        var options = {
+            zoom:4,  // where to start your zoom level
+            center:{lat:41.8781,lng:-87.62981}
+        }
+        //new map
+        var map = new google.maps.Map(document.getElementById('map'), options);
+        //Add marker
            
         
-        }
-    </script>
+    }
+</script>
     
 
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmdxRucB6cKj-4dYnfrw7Y1DOSZkKWLEo&callback=initMap"
-        async defer>
-    </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmdxRucB6cKj-4dYnfrw7Y1DOSZkKWLEo&callback=initMap"
+    async defer>
+</script>
 </body>
