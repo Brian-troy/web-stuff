@@ -1,23 +1,16 @@
 body{
-    background: green
+    background: lightgreen
 }
 
 p{
     color:yellow
 }
-p{
-    <font size="7">
-}
 
 ul {
     color: whitesmoke
-    
 }
-ul
-{
- 
-  /*height: 34px;*/
-    height:2.2em;
+a:link {
+    text-decoration: orangered;
 }
 h1{
     text-align: center
