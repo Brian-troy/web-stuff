@@ -5,9 +5,17 @@ body{
 p{
     color:yellow
 }
+p{
+    <font size="7">
+}
 
 ul {
     color: whitesmoke
+    
+}
+ul{
+    <font size="5">
+
 }
 
 h1{
