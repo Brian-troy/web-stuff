@@ -21,6 +21,12 @@ function initApplication() {
     console.log('Map Mania Lite - Starting!');
 }
 
+map.getBounds().contains(loc)
+
+var mapObject = new google.maps.Map(document.getElementById("map"), _mapOptions);
+
+mapObject.getZoom();
+
 function initMap(){
     var marker = new google.maps.Marker({position:{lat:41.8781,lng:-87.62981}, map:gMap});
     var marker = new google.maps.Marker({position:{lat:41.9028,lng:12.4964}, map:gMap});
