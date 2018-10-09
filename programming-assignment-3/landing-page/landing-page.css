@@ -9,11 +9,8 @@ p{
 ul {
     color: whitesmoke
 }
-ul:link {
-    text-decoration: orangered;
-}
-ul:active {
-    text-decoration: underline;
+a {
+    color: hotpink;
 }
 h1{
     text-align: center
