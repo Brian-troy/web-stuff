@@ -10,8 +10,12 @@ ul {
     color: whitesmoke
 }
 a {
-    color: rgb(215, 104, 230);
+    color: rgb(210, 191, 212);
 }
+a:hover {
+    text-decoration: underline;
+}
+
 h1{
     text-align: center
     
